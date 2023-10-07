@@ -33,7 +33,7 @@
     <scm>
         <connection>scm:git:git@github.com:vatisteve/notitool.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:vatisteve/notitool.git</developerConnection>
-        <url>https://github.com/vatisteve/notitool/tree/main</url>
+        <url>https://github.com/vatisteve/notitool/tree/release</url>
     </scm>
 
     <distributionManagement>
