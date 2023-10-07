@@ -10,6 +10,9 @@ package io.github.vatisteve.design.domain;
  */
 public interface ITopic<T> {
 
+    /**
+     * @return topic id
+     */
     T getTopicIdentifier();
 
 }

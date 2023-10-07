@@ -11,6 +11,10 @@ import io.github.vatisteve.fcm.domain.FcmTopic;
 
 import java.util.List;
 
+/**
+ * @author vatisteve
+ * @since 0.1.0
+ */
 public class FcmTopicManager implements TopicManager<FcmTopic, FcmDevice> {
 
     private final FirebaseMessaging fcm;

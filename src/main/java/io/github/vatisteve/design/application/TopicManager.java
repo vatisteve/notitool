@@ -17,12 +17,40 @@ import java.util.List;
  */
 public interface TopicManager<T extends ITopic<?>, D extends IDevice<?, ?>> {
 
+    /**
+     * Subscribe device to topic
+     * @param topic the {@link ITopic}
+     * @param device the {@link IDevice}
+     * @return the {@link TopicManagementResponse}
+     * @throws NotificationException error occurred when subscribe device to topic
+     */
     TopicManagementResponse subscribe(T topic, D device) throws NotificationException;
 
+    /**
+     * Subscribe a list of device to topic
+     * @param topic the {@link ITopic}
+     * @param devices the {@link IDevice}
+     * @return the {@link TopicManagementResponse}
+     * @throws NotificationException if have any error occurred when subscribe device to topic
+     */
     TopicManagementResponse subscribe(T topic, List<D> devices) throws NotificationException;
 
+    /**
+     * Unsubscribe device from topic
+     * @param topic the {@link ITopic}
+     * @param device the {@link IDevice}
+     * @return the {@link TopicManagementResponse}
+     * @throws NotificationException error occurred when unsubscribe device to topic
+     */
     TopicManagementResponse unsubscribe(T topic, D device) throws NotificationException;
 
+    /**
+     * Unsubscribe a list of device from topic
+     * @param topic the {@link ITopic}
+     * @param devices the {@link IDevice}
+     * @return the {@link TopicManagementResponse}
+     * @throws NotificationException if have any error occurred when subscribe device to topic
+     */
     TopicManagementResponse unsubscribe(T topic, List<D> devices) throws NotificationException;
 
 }

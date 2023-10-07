@@ -3,6 +3,10 @@ package io.github.vatisteve.fcm.domain;
 import com.google.firebase.messaging.AndroidConfig.Priority;
 import io.github.vatisteve.design.domain.INotification;
 
+/**
+ * @author vatisteve
+ * @since 0.1.0
+ */
 public interface FcmNotification extends INotification {
 
     String getTitle();

@@ -10,6 +10,9 @@ package io.github.vatisteve.design.domain;
  */
 public interface ICorrespondent<T> {
 
+    /**
+     * @return correspondent id
+     */
     T getCorrespondentIdentifier();
 
 }

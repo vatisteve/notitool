@@ -20,10 +20,28 @@ import java.util.List;
  */
 public interface MessageFactory<N extends INotification, M, A, D extends IDevice<?, ?>, T extends ITopic<?>> {
 
+    /**
+     * Create new message
+     * @param notification the {@link INotification}
+     * @param device the {@link IDevice}
+     * @return new message instance
+     */
     M createMessage(N notification, D device);
 
+    /**
+     * Create new multicast message
+     * @param notification the {@link INotification}
+     * @param devices a list of {@link IDevice}
+     * @return new multicast message instance
+     */
     A createMulticastMessage(N notification, List<D> devices);
 
+    /**
+     * Create new message with specific topic
+     * @param notification the {@link INotification}
+     * @param topic the {@link ITopic}
+     * @return new message instance
+     */
     M createMessage(N notification, T topic);
 
 }

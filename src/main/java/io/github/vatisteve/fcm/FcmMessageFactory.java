@@ -8,6 +8,10 @@ import io.github.vatisteve.fcm.domain.FcmTopic;
 
 import java.util.List;
 
+/**
+ * @author vatisteve
+ * @since 0.1.0
+ */
 public class FcmMessageFactory implements MessageFactory<FcmNotification, Message, MulticastMessage, FcmDevice, FcmTopic> {
 
     public Message androidMessageForDeviceToken(FcmNotification.AndroidNotificationData and, String token) {
