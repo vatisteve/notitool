@@ -2,6 +2,10 @@ package io.github.vatisteve.fcm;
 
 import io.github.vatisteve.design.application.MessageManagementResponse;
 
+/**
+ * @author vatisteve
+ * @since 0.1.0
+ */
 public class FcmMessageResponse implements MessageManagementResponse {
 
     private final boolean batch;

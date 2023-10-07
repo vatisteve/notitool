@@ -12,6 +12,9 @@ import java.util.List;
  */
 public interface IDeviceGroup<D extends IDevice<?, ?>> {
 
+    /**
+     * @return devices in group
+     */
     List<D> getDevices();
 
 }
