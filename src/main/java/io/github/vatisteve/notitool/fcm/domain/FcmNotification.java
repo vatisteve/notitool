@@ -1,7 +1,7 @@
-package io.github.vatisteve.fcm.domain;
+package io.github.vatisteve.notitool.fcm.domain;
 
 import com.google.firebase.messaging.AndroidConfig.Priority;
-import io.github.vatisteve.design.domain.INotification;
+import io.github.vatisteve.notitool.design.domain.INotification;
 
 /**
  * @author vatisteve

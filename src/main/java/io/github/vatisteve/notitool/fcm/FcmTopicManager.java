@@ -1,13 +1,13 @@
-package io.github.vatisteve.fcm;
+package io.github.vatisteve.notitool.fcm;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingException;
 import com.google.firebase.messaging.TopicManagementResponse;
-import io.github.vatisteve.design.application.TopicManager;
-import io.github.vatisteve.design.domain.IDevice;
-import io.github.vatisteve.design.exceptions.NotificationException;
-import io.github.vatisteve.fcm.domain.FcmDevice;
-import io.github.vatisteve.fcm.domain.FcmTopic;
+import io.github.vatisteve.notitool.design.application.TopicManager;
+import io.github.vatisteve.notitool.design.domain.IDevice;
+import io.github.vatisteve.notitool.design.exceptions.NotificationException;
+import io.github.vatisteve.notitool.fcm.domain.FcmDevice;
+import io.github.vatisteve.notitool.fcm.domain.FcmTopic;
 
 import java.util.List;
 

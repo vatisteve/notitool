@@ -1,4 +1,4 @@
-package io.github.vatisteve.design.application;
+package io.github.vatisteve.notitool.design.application;
 
 /**
  * Message management response model

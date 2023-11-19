@@ -1,4 +1,4 @@
-package io.github.vatisteve.design.domain;
+package io.github.vatisteve.notitool.design.domain;
 
 /**
  *  ITopic

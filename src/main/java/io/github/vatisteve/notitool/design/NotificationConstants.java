@@ -1,4 +1,4 @@
-package io.github.vatisteve.design;
+package io.github.vatisteve.notitool.design;
 
 public interface NotificationConstants {
 

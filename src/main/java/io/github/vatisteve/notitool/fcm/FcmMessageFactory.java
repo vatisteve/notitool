@@ -1,10 +1,10 @@
-package io.github.vatisteve.fcm;
+package io.github.vatisteve.notitool.fcm;
 
 import com.google.firebase.messaging.*;
-import io.github.vatisteve.design.application.MessageFactory;
-import io.github.vatisteve.fcm.domain.FcmDevice;
-import io.github.vatisteve.fcm.domain.FcmNotification;
-import io.github.vatisteve.fcm.domain.FcmTopic;
+import io.github.vatisteve.notitool.design.application.MessageFactory;
+import io.github.vatisteve.notitool.fcm.domain.FcmDevice;
+import io.github.vatisteve.notitool.fcm.domain.FcmNotification;
+import io.github.vatisteve.notitool.fcm.domain.FcmTopic;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package io.github.vatisteve.design.exceptions;
+package io.github.vatisteve.notitool.design.exceptions;
 
 import java.io.Serial;
 

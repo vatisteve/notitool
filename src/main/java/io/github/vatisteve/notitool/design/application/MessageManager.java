@@ -1,10 +1,10 @@
-package io.github.vatisteve.design.application;
+package io.github.vatisteve.notitool.design.application;
 
-import io.github.vatisteve.design.domain.IDevice;
-import io.github.vatisteve.design.domain.IDeviceGroup;
-import io.github.vatisteve.design.domain.INotification;
-import io.github.vatisteve.design.domain.ITopic;
-import io.github.vatisteve.design.exceptions.NotificationException;
+import io.github.vatisteve.notitool.design.domain.IDevice;
+import io.github.vatisteve.notitool.design.domain.IDeviceGroup;
+import io.github.vatisteve.notitool.design.domain.INotification;
+import io.github.vatisteve.notitool.design.domain.ITopic;
+import io.github.vatisteve.notitool.design.exceptions.NotificationException;
 
 import java.util.List;
 

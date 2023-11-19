@@ -1,6 +1,6 @@
-package io.github.vatisteve.fcm;
+package io.github.vatisteve.notitool.fcm;
 
-import io.github.vatisteve.design.application.TopicManagementResponse;
+import io.github.vatisteve.notitool.design.application.TopicManagementResponse;
 
 /**
  * @author vatisteve

@@ -1,6 +1,6 @@
-package io.github.vatisteve.fcm.domain;
+package io.github.vatisteve.notitool.fcm.domain;
 
-import io.github.vatisteve.design.domain.IDeviceType;
+import io.github.vatisteve.notitool.design.domain.IDeviceType;
 
 /**
  * @author vatisteve
