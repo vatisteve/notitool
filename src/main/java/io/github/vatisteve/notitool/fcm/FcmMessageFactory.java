@@ -68,14 +68,14 @@ public class FcmMessageFactory implements MessageFactory<FcmNotification, Messag
                 .build();
     }
 
-    public Message webpushMessageForDeviceToken(FcmNotification.WebNotificationData wnd, String token) {
+    public Message webPushMessageForDeviceToken(FcmNotification.WebNotificationData wnd, String token) {
         return Message.builder()
                 .setWebpushConfig(getWebpushConfig(wnd))
                 .setToken(token)
                 .build();
     }
 
-    public Message webpushMessageForTopic(FcmNotification.WebNotificationData wnd, String topic) {
+    public Message webPushMessageForTopic(FcmNotification.WebNotificationData wnd, String topic) {
         return Message.builder()
                 .setWebpushConfig(getWebpushConfig(wnd))
                 .setTopic(topic)
@@ -121,7 +121,7 @@ public class FcmMessageFactory implements MessageFactory<FcmNotification, Messag
         return switch(device.getDeviceType()) {
         case ANDROID -> androidMessageForDeviceToken(notification.getAndroidNotificationData(), device.getDeviceToken());
         case IOS -> apnsMessageForDeviceToken(notification.getApnsNotificationData(), device.getDeviceToken());
-        case WEB -> webpushMessageForDeviceToken(notification.getWebNotificationData(), device.getDeviceToken());
+        case WEB -> webPushMessageForDeviceToken(notification.getWebNotificationData(), device.getDeviceToken());
         };
     }
 

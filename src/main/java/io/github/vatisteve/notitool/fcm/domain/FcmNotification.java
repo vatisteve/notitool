@@ -26,8 +26,8 @@ public interface FcmNotification extends INotification {
         return new WebNotificationData(getTitle(), getBody(), getIcon());
     }
 
-    public record AndroidNotificationData (Priority priority, String title, String icon, String body, String color) {}
-    public record ApnsNotificationData (String title, String body, int badge) {}
-    public record WebNotificationData (String title, String body, String icon) {}
+    record AndroidNotificationData (Priority priority, String title, String icon, String body, String color) {}
+    record ApnsNotificationData (String title, String body, int badge) {}
+    record WebNotificationData (String title, String body, String icon) {}
 
 }

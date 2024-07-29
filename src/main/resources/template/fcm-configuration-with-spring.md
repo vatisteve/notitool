@@ -1,3 +1,4 @@
+# Configuration with Spring
 ```java
 @Configuration
 public class NotificationConfiguration {

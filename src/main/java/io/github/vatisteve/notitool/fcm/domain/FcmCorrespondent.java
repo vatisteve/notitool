@@ -3,7 +3,7 @@ package io.github.vatisteve.notitool.fcm.domain;
 import io.github.vatisteve.notitool.design.domain.ICorrespondent;
 
 /**
- * The FCM Correspondent with String type for identifier type
+ * The FCM Correspondent with String type for an identifier type
  * @author vatisteve
  * @since 0.1.0
  */
